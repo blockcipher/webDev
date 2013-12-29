@@ -1,15 +1,3 @@
-基于windows 7 64bit环境。
-
-一 下载如下工具
-1. python 2.6.6 http://www.python.org/ftp/python/2.6.6/python-2.6.6.amd64.msi
-2. ez_setup http://peak.telecommunity.com/dist/ez_setup.py 
-
-二 搭建环境
-1. 安装python2.6.6于D:\ProgramFiles\Python26\
-2. 安装ez_setup： ez_setup.py -U setuptools 
-3. 安装django： easy_install.exe django 
-4. 建立如下批处理文件   
-
 @echo off
 set PYTHONPATH=[你的python-lib]
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -22,4 +10,3 @@ set PATH=%PYTHON_HOME%;%PYTHON_HOME%\Scripts;%PATH%
 set HTTP_PROXY=http://proxy.your.com:8080
 set HTTPS_PROXY=https://proxy.your.com:8080
 cmd -k
-
