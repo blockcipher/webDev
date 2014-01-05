@@ -1,0 +1,5 @@
+*.o
+vers.c
+ct/_*
+beanstalkd
+/News
